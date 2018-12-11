@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YHOCMonkey/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YHOCMonkey' => ['YHOCMonkey/Assets/*.png']
-  # }
+  s.subspec 'Paws' do |ss|
+    ss.source_files = 'YHOCMonkey/Classes/Paws/*'
+    ss.public_header_files = 'YHOCMonkey/Classes/Paws/*.h'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Test' do |ss|
+    ss.source_files = 'YHOCMonkey/Classes/Test/*'
+    ss.public_header_files = 'YHOCMonkey/Classes/Test/*.h'
+    ss.frameworks = 'XCTest'
+  end
 end

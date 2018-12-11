@@ -1,13 +1,12 @@
-use_frameworks!
+# use_frameworks!
 
 platform :ios, '8.0'
 
 target 'YHOCMonkey_Example' do
-  pod 'YHOCMonkey', :path => '../'
+  pod 'YHOCMonkey/Paws', :path => '../'
 
-  target 'YHOCMonkey_Tests' do
+  target 'YHOCMonkey_ExampleUITests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    pod 'YHOCMonkey/Test', :path => '../'
   end
 end

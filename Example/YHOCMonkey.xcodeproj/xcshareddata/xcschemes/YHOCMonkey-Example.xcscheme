@@ -38,6 +38,16 @@
                ReferencedContainer = "container:YHOCMonkey.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B319FA0721C0149C00BB6E25"
+               BuildableName = "YHOCMonkey_ExampleUITests.xctest"
+               BlueprintName = "YHOCMonkey_ExampleUITests"
+               ReferencedContainer = "container:YHOCMonkey.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

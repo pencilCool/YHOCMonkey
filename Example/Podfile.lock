@@ -1,0 +1,18 @@
+PODS:
+  - YHOCMonkey/Paws (0.1.0)
+  - YHOCMonkey/Test (0.1.0)
+
+DEPENDENCIES:
+  - YHOCMonkey/Paws (from `../`)
+  - YHOCMonkey/Test (from `../`)
+
+EXTERNAL SOURCES:
+  YHOCMonkey:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YHOCMonkey: eccab025c8596d11482d4d662d006132c401754e
+
+PODFILE CHECKSUM: f9b95ac3a61cc088b7fef6ee7a7f68f2f1d70ba7
+
+COCOAPODS: 1.5.3

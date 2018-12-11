@@ -8,11 +8,15 @@
 
 #import "YHOCAppDelegate.h"
 
+#import <YHOCMonkey/YHOCMonkeyPaws.h>
+@interface YHOCAppDelegate ()
+@property (nonatomic, strong) YHOCMonkeyPaws *paws;
+@end
 @implementation YHOCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.paws = [[YHOCMonkeyPaws alloc] initWithView:self.window];
     return YES;
 }
 

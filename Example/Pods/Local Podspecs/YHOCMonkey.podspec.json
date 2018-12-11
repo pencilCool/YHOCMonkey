@@ -1,0 +1,34 @@
+{
+  "name": "YHOCMonkey",
+  "version": "0.1.0",
+  "summary": "A short description of YHOCMonkey.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pencilCool/YHOCMonkey",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pencilCool": "yhtangcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pencilCool/YHOCMonkey.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Paws",
+      "source_files": "YHOCMonkey/Classes/Paws/*",
+      "public_header_files": "YHOCMonkey/Classes/Paws/*.h"
+    },
+    {
+      "name": "Test",
+      "source_files": "YHOCMonkey/Classes/Test/*",
+      "public_header_files": "YHOCMonkey/Classes/Test/*.h",
+      "frameworks": "XCTest"
+    }
+  ]
+}

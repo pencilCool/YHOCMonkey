@@ -15,29 +15,26 @@
 		6003F59E195388D20070C39A /* YHOCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YHOCAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* YHOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YHOCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		718C9E57AC6689C349A5F35F /* Pods_YHOCMonkey_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58BEC3EBB8E6830BA1A0DBC /* Pods_YHOCMonkey_Example.framework */; };
+		7F216197D6BBF1BD95E2DAEF /* libPods-YHOCMonkey_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D1611E2FDE7BC371A7A05 /* libPods-YHOCMonkey_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		DBF6166A752B009E6ECA6545 /* Pods_YHOCMonkey_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA7E5295D608480BA45A72 /* Pods_YHOCMonkey_Tests.framework */; };
+		9C9C3F08B61EDD6EBA538C74 /* libPods-YHOCMonkey_ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CCFFF1E8D9ED86391574CE /* libPods-YHOCMonkey_ExampleUITests.a */; };
+		B319FA0B21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B319FA0A21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		B319FA0D21C0149C00BB6E25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = YHOCMonkey;
+			remoteInfo = YHOCMonkey_Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		562F6E468282B46ACC5F5DAF /* Pods-YHOCMonkey_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHOCMonkey_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHOCMonkey_Example/Pods-YHOCMonkey_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57CCFFF1E8D9ED86391574CE /* libPods-YHOCMonkey_ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHOCMonkey_ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YHOCMonkey_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHOCMonkey_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,22 +48,22 @@
 		6003F5A5195388D20070C39A /* YHOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHOCViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* YHOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHOCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* YHOCMonkey_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHOCMonkey_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		615ADF93701021060B5C4554 /* Pods-YHOCMonkey_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHOCMonkey_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHOCMonkey_Example/Pods-YHOCMonkey_Example.release.xcconfig"; sourceTree = "<group>"; };
-		62390778EFA9B0398F87C6F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		62390778EFA9B0398F87C6F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79532B005191958890085BFB /* Pods-YHOCMonkey_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHOCMonkey_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHOCMonkey_ExampleUITests/Pods-YHOCMonkey_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		844D1611E2FDE7BC371A7A05 /* libPods-YHOCMonkey_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHOCMonkey_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876D4571FA5F9944A1521C9A /* libPods-YHOCMonkey_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHOCMonkey_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38F4C175F69EC5132116543 /* Pods-YHOCMonkey_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHOCMonkey_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHOCMonkey_Tests/Pods-YHOCMonkey_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B18675E4C9262F530516D8E2 /* Pods-YHOCMonkey_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHOCMonkey_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHOCMonkey_Tests/Pods-YHOCMonkey_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3CA7E5295D608480BA45A72 /* Pods_YHOCMonkey_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHOCMonkey_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB84DE7A488FAF9FE2D0E706 /* YHOCMonkey.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YHOCMonkey.podspec; path = ../YHOCMonkey.podspec; sourceTree = "<group>"; };
-		E58BEC3EBB8E6830BA1A0DBC /* Pods_YHOCMonkey_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHOCMonkey_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6B00A8CC014A5F6B768BC0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B319FA0821C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHOCMonkey_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B319FA0A21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHOCMonkey_ExampleUITests.m; sourceTree = "<group>"; };
+		B319FA0C21C0149C00BB6E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB84DE7A488FAF9FE2D0E706 /* YHOCMonkey.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHOCMonkey.podspec; path = ../YHOCMonkey.podspec; sourceTree = "<group>"; };
+		E1A49875C84D545EDD190978 /* Pods-YHOCMonkey_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHOCMonkey_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHOCMonkey_ExampleUITests/Pods-YHOCMonkey_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6B00A8CC014A5F6B768BC0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,18 +74,15 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				718C9E57AC6689C349A5F35F /* Pods_YHOCMonkey_Example.framework in Frameworks */,
+				7F216197D6BBF1BD95E2DAEF /* libPods-YHOCMonkey_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		B319FA0521C0149C00BB6E25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				DBF6166A752B009E6ECA6545 /* Pods_YHOCMonkey_Tests.framework in Frameworks */,
+				9C9C3F08B61EDD6EBA538C74 /* libPods-YHOCMonkey_ExampleUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +96,8 @@
 				615ADF93701021060B5C4554 /* Pods-YHOCMonkey_Example.release.xcconfig */,
 				B18675E4C9262F530516D8E2 /* Pods-YHOCMonkey_Tests.debug.xcconfig */,
 				A38F4C175F69EC5132116543 /* Pods-YHOCMonkey_Tests.release.xcconfig */,
+				79532B005191958890085BFB /* Pods-YHOCMonkey_ExampleUITests.debug.xcconfig */,
+				E1A49875C84D545EDD190978 /* Pods-YHOCMonkey_ExampleUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -111,7 +107,7 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YHOCMonkey */,
-				6003F5B5195388D20070C39A /* Tests */,
+				B319FA0921C0149C00BB6E25 /* YHOCMonkey_ExampleUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				516B31E84A6FDDD3BD3B6BF4 /* Pods */,
@@ -122,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* YHOCMonkey_Example.app */,
-				6003F5AE195388D20070C39A /* YHOCMonkey_Tests.xctest */,
+				B319FA0821C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,8 +130,9 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E58BEC3EBB8E6830BA1A0DBC /* Pods_YHOCMonkey_Example.framework */,
-				C3CA7E5295D608480BA45A72 /* Pods_YHOCMonkey_Tests.framework */,
+				844D1611E2FDE7BC371A7A05 /* libPods-YHOCMonkey_Example.a */,
+				876D4571FA5F9944A1521C9A /* libPods-YHOCMonkey_Tests.a */,
+				57CCFFF1E8D9ED86391574CE /* libPods-YHOCMonkey_ExampleUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,25 +164,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +172,15 @@
 				F6B00A8CC014A5F6B768BC0E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B319FA0921C0149C00BB6E25 /* YHOCMonkey_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B319FA0A21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m */,
+				B319FA0C21C0149C00BB6E25 /* Info.plist */,
+			);
+			path = YHOCMonkey_ExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +194,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				233683A738EDB4D2E96A9464 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,25 +204,24 @@
 			productReference = 6003F58A195388D20070C39A /* YHOCMonkey_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* YHOCMonkey_Tests */ = {
+		B319FA0721C0149C00BB6E25 /* YHOCMonkey_ExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YHOCMonkey_Tests" */;
+			buildConfigurationList = B319FA0F21C0149C00BB6E25 /* Build configuration list for PBXNativeTarget "YHOCMonkey_ExampleUITests" */;
 			buildPhases = (
-				976A21002E9B9C5E560F6620 /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				62CCDB61FE8AC0DDA5C1593F /* [CP] Embed Pods Frameworks */,
+				23732D60E20B21C43AC4C1DB /* [CP] Check Pods Manifest.lock */,
+				B319FA0421C0149C00BB6E25 /* Sources */,
+				B319FA0521C0149C00BB6E25 /* Frameworks */,
+				B319FA0621C0149C00BB6E25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+				B319FA0E21C0149C00BB6E25 /* PBXTargetDependency */,
 			);
-			name = YHOCMonkey_Tests;
-			productName = YHOCMonkeyTests;
-			productReference = 6003F5AE195388D20070C39A /* YHOCMonkey_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = YHOCMonkey_ExampleUITests;
+			productName = YHOCMonkey_ExampleUITests;
+			productReference = B319FA0821C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -248,7 +233,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = pencilCool;
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
+					B319FA0721C0149C00BB6E25 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 8Y89LE8P2N;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -267,7 +255,7 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* YHOCMonkey_Example */,
-				6003F5AD195388D20070C39A /* YHOCMonkey_Tests */,
+				B319FA0721C0149C00BB6E25 /* YHOCMonkey_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,18 +272,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
+		B319FA0621C0149C00BB6E25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		233683A738EDB4D2E96A9464 /* [CP] Embed Pods Frameworks */ = {
+		23732D60E20B21C43AC4C1DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,18 +290,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YHOCMonkey_Example/Pods-YHOCMonkey_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YHOCMonkey/YHOCMonkey.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHOCMonkey.framework",
+				"$(DERIVED_FILE_DIR)/Pods-YHOCMonkey_ExampleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHOCMonkey_Example/Pods-YHOCMonkey_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5EDC9481EFC59D746D63245C /* [CP] Check Pods Manifest.lock */ = {
@@ -339,50 +326,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62CCDB61FE8AC0DDA5C1593F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YHOCMonkey_Tests/Pods-YHOCMonkey_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHOCMonkey_Tests/Pods-YHOCMonkey_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		976A21002E9B9C5E560F6620 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YHOCMonkey_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -396,21 +339,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
+		B319FA0421C0149C00BB6E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				B319FA0B21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		B319FA0E21C0149C00BB6E25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* YHOCMonkey_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			targetProxy = B319FA0D21C0149C00BB6E25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,14 +362,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -545,47 +480,84 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		B319FA1021C0149C00BB6E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B18675E4C9262F530516D8E2 /* Pods-YHOCMonkey_Tests.debug.xcconfig */;
+			baseConfigurationReference = 79532B005191958890085BFB /* Pods-YHOCMonkey_ExampleUITests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YHOCMonkey_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pencilCool.demo.YHOCMonkey-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHOCMonkey_Example.app/YHOCMonkey_Example";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHOCMonkey_Example;
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		B319FA1121C0149C00BB6E25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A38F4C175F69EC5132116543 /* Pods-YHOCMonkey_Tests.release.xcconfig */;
+			baseConfigurationReference = E1A49875C84D545EDD190978 /* Pods-YHOCMonkey_ExampleUITests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YHOCMonkey_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pencilCool.demo.YHOCMonkey-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHOCMonkey_Example.app/YHOCMonkey_Example";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHOCMonkey_Example;
 			};
 			name = Release;
 		};
@@ -610,11 +582,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YHOCMonkey_Tests" */ = {
+		B319FA0F21C0149C00BB6E25 /* Build configuration list for PBXNativeTarget "YHOCMonkey_ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				B319FA1021C0149C00BB6E25 /* Debug */,
+				B319FA1121C0149C00BB6E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

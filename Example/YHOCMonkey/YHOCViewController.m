@@ -7,9 +7,9 @@
 //
 
 #import "YHOCViewController.h"
-
-@interface YHOCViewController ()
-
+#import <UIKit/UIKit.h>
+@interface YHOCViewController ()<UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *mapView;
 @end
 
 @implementation YHOCViewController
@@ -17,13 +17,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSURL *url = [NSURL URLWithString:@"https://www.google.com/maps"];
+    NSURLRequest *request =[NSURLRequest requestWithURL:url];
+    self.mapView.delegate = self;
+    [self.mapView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

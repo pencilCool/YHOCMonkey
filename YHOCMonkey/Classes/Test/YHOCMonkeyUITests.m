@@ -39,8 +39,8 @@
     [query elementBoundByIndex:0].frame;
     YHOCMonkey *monkey = [[YHOCMonkey alloc] initWithFrame:application.frame];
     [monkey addDefaultXCTestPrivateActions];
-//    [monkey addXCTestTapAlertAction:100
-//                        application:application];
+    [monkey addXCTestTapAlertAction:100
+                        application:application];
     [monkey monkeyAroundInfinity];
 }
 

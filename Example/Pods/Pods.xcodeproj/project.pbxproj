@@ -62,12 +62,12 @@
 		1C5B4A27ED9C1AA242D0647D52407000 /* YHOCMonkeyRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHOCMonkeyRandom.m; path = YHOCMonkey/Classes/Test/YHOCMonkeyRandom.m; sourceTree = "<group>"; };
 		1D46D86B71C637B3424A6DA29F2257B8 /* YHOCMonkey+XCTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YHOCMonkey+XCTest.h"; path = "YHOCMonkey/Classes/Test/YHOCMonkey+XCTest.h"; sourceTree = "<group>"; };
 		1DD166188851C200D895D9DA0D049290 /* YHOCMonkey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHOCMonkey.m; path = YHOCMonkey/Classes/Test/YHOCMonkey.m; sourceTree = "<group>"; };
-		1F12C8060C6894B24CE705428BD84F72 /* libYHOCMonkey-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libYHOCMonkey-Test.a"; path = "libYHOCMonkey-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F12C8060C6894B24CE705428BD84F72 /* libYHOCMonkey-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libYHOCMonkey-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1F5EADA4C69B227612FE12AEEAF017 /* Pods-YHOCMonkey_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHOCMonkey_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		22604FBB0436C54595ED7BA96B8E2228 /* Pods-YHOCMonkey_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHOCMonkey_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		319A9CDC2C43865242D618D671072F1A /* YHOCMonkey-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YHOCMonkey-Test-dummy.m"; path = "../YHOCMonkey-Test/YHOCMonkey-Test-dummy.m"; sourceTree = "<group>"; };
 		3911965A354AC26348F74C4E9E33249C /* Pods-YHOCMonkey_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHOCMonkey_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3A60424ABF65D67AADCCABE75C1FD660 /* libPods-YHOCMonkey_ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YHOCMonkey_ExampleUITests.a"; path = "libPods-YHOCMonkey_ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A60424ABF65D67AADCCABE75C1FD660 /* libPods-YHOCMonkey_ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHOCMonkey_ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		448FFD3A871F8F4CFB572674249952C3 /* Pods-YHOCMonkey_ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHOCMonkey_ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		46B18B65217EE3686A5180BB685FD277 /* Pods-YHOCMonkey_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHOCMonkey_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4BDC03A8E5E31F516554E8311FA10D81 /* YHOCMonkey+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YHOCMonkey+Private.h"; path = "YHOCMonkey/Classes/Test/YHOCMonkey+Private.h"; sourceTree = "<group>"; };
@@ -77,15 +77,15 @@
 		5E759D8BB864E452F6FEC3D1131C679E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		65AB668EF3A4EA999D77A600E6384153 /* YHOCMonkeyPaws.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHOCMonkeyPaws.m; path = YHOCMonkey/Classes/Paws/YHOCMonkeyPaws.m; sourceTree = "<group>"; };
 		6ABAAC6AAA99829CD58A5A47C5ED1622 /* YHOCMonkey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHOCMonkey.h; path = YHOCMonkey/Classes/Test/YHOCMonkey.h; sourceTree = "<group>"; };
-		74800DB445B9B28A698F8AE124903FB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74800DB445B9B28A698F8AE124903FB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		78797A3A162A6721BFD6A09BF804A9C9 /* Pods-YHOCMonkey_ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHOCMonkey_ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		854BE13FC6B62923E9A6D8A734D6F5F7 /* YHOCMonkeyPawDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHOCMonkeyPawDrawer.m; path = YHOCMonkey/Classes/Paws/YHOCMonkeyPawDrawer.m; sourceTree = "<group>"; };
-		8B39F2D629C790EE019E2D5C9DF55793 /* libYHOCMonkey-Paws.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libYHOCMonkey-Paws.a"; path = "libYHOCMonkey-Paws.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B39F2D629C790EE019E2D5C9DF55793 /* libYHOCMonkey-Paws.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libYHOCMonkey-Paws.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B97E9B6594FD6C815C095511F889BFF /* YHOCMonkey+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YHOCMonkey+Private.m"; path = "YHOCMonkey/Classes/Test/YHOCMonkey+Private.m"; sourceTree = "<group>"; };
 		9CE4F887C9ED4E4785E2EC264D19D1FA /* Pods-YHOCMonkey_ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHOCMonkey_ExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		9F8FC18C9D901A6C29712E730FA5EB88 /* Pods-YHOCMonkey_ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHOCMonkey_ExampleUITests-resources.sh"; sourceTree = "<group>"; };
-		A29437AFB699998105D314BCEC7D8398 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A29437AFB699998105D314BCEC7D8398 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A61CF180CE9E6AEC7E306416699532CB /* Pods-YHOCMonkey_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHOCMonkey_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE21AF1E5F0D7C390073F78186C61172 /* YHOCMonkeyPaws.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHOCMonkeyPaws.h; path = YHOCMonkey/Classes/Paws/YHOCMonkeyPaws.h; sourceTree = "<group>"; };
 		B7EDE22831EB037ACBF58402B8DBAB9C /* YHOCMonkey+XCTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YHOCMonkey+XCTest.m"; path = "YHOCMonkey/Classes/Test/YHOCMonkey+XCTest.m"; sourceTree = "<group>"; };
@@ -94,11 +94,11 @@
 		CB447C324B4EB7C09E86D5504A95F71E /* YHOCMonkey-Test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "YHOCMonkey-Test.xcconfig"; path = "../YHOCMonkey-Test/YHOCMonkey-Test.xcconfig"; sourceTree = "<group>"; };
 		CC54C3DFB2953A4050F11AE44950A19A /* Pods-YHOCMonkey_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHOCMonkey_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D702B78C2D6C416FFA07EDFE0940BCB9 /* Pods-YHOCMonkey_ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHOCMonkey_ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E1FCD2648A68F3A2AF4CDF5853F06CC1 /* libPods-YHOCMonkey_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YHOCMonkey_Example.a"; path = "libPods-YHOCMonkey_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FCD2648A68F3A2AF4CDF5853F06CC1 /* libPods-YHOCMonkey_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHOCMonkey_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2ABF5D696689265B2408EE9CF06C03F /* YHOCMonkey-Paws.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YHOCMonkey-Paws.xcconfig"; sourceTree = "<group>"; };
 		E39277112BBAC7D8EB9B952493C2FD7B /* YHOCMonkeyUITests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHOCMonkeyUITests.m; path = YHOCMonkey/Classes/Test/YHOCMonkeyUITests.m; sourceTree = "<group>"; };
 		E3EF865FFAB508646B88534D8B92C77E /* YHOCMonkeyPawConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHOCMonkeyPawConfig.h; path = YHOCMonkey/Classes/Paws/YHOCMonkeyPawConfig.h; sourceTree = "<group>"; };
-		EC10CCDF6CB0A07EFBBA7ACB67E2BD80 /* YHOCMonkey.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YHOCMonkey.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC10CCDF6CB0A07EFBBA7ACB67E2BD80 /* YHOCMonkey.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YHOCMonkey.podspec; sourceTree = "<group>"; };
 		EC7B85F2F2C625BD4F240E5B7A73524B /* YHOCMonkeyPawDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHOCMonkeyPawDrawer.h; path = YHOCMonkey/Classes/Paws/YHOCMonkeyPawDrawer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -493,7 +493,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0170DAE34162829ADA53D40A8085F042 /* Debug */ = {
+		35160822B4F7663444FBFF3F0AF23FC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46B18B65217EE3686A5180BB685FD277 /* Pods-YHOCMonkey_Example.debug.xcconfig */;
 			buildSettings = {
@@ -502,7 +502,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -514,7 +514,7 @@
 			};
 			name = Debug;
 		};
-		0464498381DE7932E70DA161F2025E5C /* Debug */ = {
+		354AE869C17A4D9441C8FBA1BA5B5E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB447C324B4EB7C09E86D5504A95F71E /* YHOCMonkey-Test.xcconfig */;
 			buildSettings = {
@@ -523,7 +523,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/YHOCMonkey-Test/YHOCMonkey-Test-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -537,44 +537,21 @@
 			};
 			name = Debug;
 		};
-		49592871DBDDBCB854DEC0B92B58ABFB /* Debug */ = {
+		39D023B3FD9D38029C2957E8BEF995CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2ABF5D696689265B2408EE9CF06C03F /* YHOCMonkey-Paws.xcconfig */;
+			baseConfigurationReference = CB447C324B4EB7C09E86D5504A95F71E /* YHOCMonkey-Test.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YHOCMonkey-Paws/YHOCMonkey-Paws-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/YHOCMonkey-Test/YHOCMonkey-Test-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = YHOCMonkey;
-				PRODUCT_NAME = "YHOCMonkey-Paws";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4D1611E2FD2301973B487B27790F713E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2ABF5D696689265B2408EE9CF06C03F /* YHOCMonkey-Paws.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YHOCMonkey-Paws/YHOCMonkey-Paws-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YHOCMonkey;
-				PRODUCT_NAME = "YHOCMonkey-Paws";
+				PRODUCT_NAME = "YHOCMonkey-Test";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -584,88 +561,7 @@
 			};
 			name = Release;
 		};
-		7BD9E2F0733E6FEB264E7FB5E3D9F81B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A61CF180CE9E6AEC7E306416699532CB /* Pods-YHOCMonkey_ExampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -718,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -729,40 +625,16 @@
 			};
 			name = Debug;
 		};
-		EAD1B91E5FC1D42900CCC41A7F50F661 /* Release */ = {
+		623B1F1DEADFCFFEB67265681FFFCB75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB447C324B4EB7C09E86D5504A95F71E /* YHOCMonkey-Test.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YHOCMonkey-Test/YHOCMonkey-Test-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YHOCMonkey;
-				PRODUCT_NAME = "YHOCMonkey-Test";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EECC4DFF0E3FD507749789FB122C521A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A6563AF4616467D3E973B3C790FAA90 /* Pods-YHOCMonkey_Example.release.xcconfig */;
+			baseConfigurationReference = A61CF180CE9E6AEC7E306416699532CB /* Pods-YHOCMonkey_ExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -775,7 +647,111 @@
 			};
 			name = Release;
 		};
-		FBB8A999E35895E9614F7C4345BD967E /* Debug */ = {
+		64270CFF863EF8FE50E7F1B107B93A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2ABF5D696689265B2408EE9CF06C03F /* YHOCMonkey-Paws.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YHOCMonkey-Paws/YHOCMonkey-Paws-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YHOCMonkey;
+				PRODUCT_NAME = "YHOCMonkey-Paws";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC59D5A028E60D82FDCF8DC43629DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6563AF4616467D3E973B3C790FAA90 /* Pods-YHOCMonkey_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D97A16DE62509FF6C110F68752D32842 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC54C3DFB2953A4050F11AE44950A19A /* Pods-YHOCMonkey_ExampleUITests.debug.xcconfig */;
 			buildSettings = {
@@ -784,7 +760,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -796,14 +772,38 @@
 			};
 			name = Debug;
 		};
+		DB32AFA54C4FAE5B4733192C7699150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2ABF5D696689265B2408EE9CF06C03F /* YHOCMonkey-Paws.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YHOCMonkey-Paws/YHOCMonkey-Paws-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YHOCMonkey;
+				PRODUCT_NAME = "YHOCMonkey-Paws";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		04FA7712FB1937886363C17F6B126F4B /* Build configuration list for PBXNativeTarget "Pods-YHOCMonkey_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0170DAE34162829ADA53D40A8085F042 /* Debug */,
-				EECC4DFF0E3FD507749789FB122C521A /* Release */,
+				35160822B4F7663444FBFF3F0AF23FC5 /* Debug */,
+				BC59D5A028E60D82FDCF8DC43629DD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -811,8 +811,8 @@
 		266AFD6BB6115679E7B9B5A8C1DF0EE9 /* Build configuration list for PBXNativeTarget "YHOCMonkey-Paws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49592871DBDDBCB854DEC0B92B58ABFB /* Debug */,
-				4D1611E2FD2301973B487B27790F713E /* Release */,
+				64270CFF863EF8FE50E7F1B107B93A17 /* Debug */,
+				DB32AFA54C4FAE5B4733192C7699150A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -820,8 +820,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
-				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -829,8 +829,8 @@
 		5134C1D2443353BA26A09613A9B805A9 /* Build configuration list for PBXNativeTarget "YHOCMonkey-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0464498381DE7932E70DA161F2025E5C /* Debug */,
-				EAD1B91E5FC1D42900CCC41A7F50F661 /* Release */,
+				354AE869C17A4D9441C8FBA1BA5B5E1A /* Debug */,
+				39D023B3FD9D38029C2957E8BEF995CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -838,8 +838,8 @@
 		E4C6D3B508CB7180CFA39FB83FF81841 /* Build configuration list for PBXNativeTarget "Pods-YHOCMonkey_ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBB8A999E35895E9614F7C4345BD967E /* Debug */,
-				7BD9E2F0733E6FEB264E7FB5E3D9F81B /* Release */,
+				D97A16DE62509FF6C110F68752D32842 /* Debug */,
+				623B1F1DEADFCFFEB67265681FFFCB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -27,3 +27,14 @@ pencilCool, yhtangcoder@gmail.com
 ## License
 
 YHOCMonkey is available under the MIT license. See the LICENSE file for more info.
+
+
+## 中文说明
+
+iOS 随机乱点测试
+
+[SwiftMonkey](https://github.com/zalando/SwiftMonkey) 的Objective-C 实现。
+
+可用于Swift 支持的不彻底的工程。
+
+

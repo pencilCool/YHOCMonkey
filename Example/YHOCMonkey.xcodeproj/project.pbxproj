@@ -20,6 +20,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C9C3F08B61EDD6EBA538C74 /* libPods-YHOCMonkey_ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CCFFF1E8D9ED86391574CE /* libPods-YHOCMonkey_ExampleUITests.a */; };
 		B319FA0B21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B319FA0A21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m */; };
+		B319FA1421C0174200BB6E25 /* BananaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B319FA1321C0174200BB6E25 /* BananaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		B319FA0821C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHOCMonkey_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B319FA0A21C0149C00BB6E25 /* YHOCMonkey_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHOCMonkey_ExampleUITests.m; sourceTree = "<group>"; };
 		B319FA0C21C0149C00BB6E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B319FA1221C0174200BB6E25 /* BananaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BananaViewController.h; sourceTree = "<group>"; };
+		B319FA1321C0174200BB6E25 /* BananaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BananaViewController.m; sourceTree = "<group>"; };
 		DB84DE7A488FAF9FE2D0E706 /* YHOCMonkey.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHOCMonkey.podspec; path = ../YHOCMonkey.podspec; sourceTree = "<group>"; };
 		E1A49875C84D545EDD190978 /* Pods-YHOCMonkey_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHOCMonkey_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHOCMonkey_ExampleUITests/Pods-YHOCMonkey_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F6B00A8CC014A5F6B768BC0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 			children = (
 				6003F59C195388D20070C39A /* YHOCAppDelegate.h */,
 				6003F59D195388D20070C39A /* YHOCAppDelegate.m */,
+				B319FA1221C0174200BB6E25 /* BananaViewController.h */,
+				B319FA1321C0174200BB6E25 /* BananaViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YHOCViewController.h */,
 				6003F5A6195388D20070C39A /* YHOCViewController.m */,
@@ -230,7 +235,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = YHOC;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = pencilCool;
 				TargetAttributes = {
 					B319FA0721C0149C00BB6E25 = {
@@ -334,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YHOCAppDelegate.m in Sources */,
+				B319FA1421C0174200BB6E25 /* BananaViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* YHOCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -385,19 +391,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -425,18 +444,31 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

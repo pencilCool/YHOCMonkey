@@ -238,6 +238,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = pencilCool;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8Y89LE8P2N;
+					};
 					B319FA0721C0149C00BB6E25 = {
 						CreatedOnToolsVersion = 10.1;
 						DevelopmentTeam = 8Y89LE8P2N;
@@ -251,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -487,6 +491,7 @@
 			baseConfigurationReference = 562F6E468282B46ACC5F5DAF /* Pods-YHOCMonkey_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YHOCMonkey/YHOCMonkey-Prefix.pch";
 				INFOPLIST_FILE = "YHOCMonkey/YHOCMonkey-Info.plist";
@@ -502,6 +507,7 @@
 			baseConfigurationReference = 615ADF93701021060B5C4554 /* Pods-YHOCMonkey_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YHOCMonkey/YHOCMonkey-Prefix.pch";
 				INFOPLIST_FILE = "YHOCMonkey/YHOCMonkey-Info.plist";
@@ -534,6 +540,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 8Y89LE8P2N;
@@ -574,6 +581,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

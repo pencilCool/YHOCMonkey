@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface YHOCMonkey (XCTest)
 - (void)addXCTestTapAlertAction:(NSTimeInterval)interval
                     application:(XCUIApplication *)application;
+
+- (void)addDefaultXCTestPublicActions:(XCUIApplication *)app;
 @end
 
 NS_ASSUME_NONNULL_END

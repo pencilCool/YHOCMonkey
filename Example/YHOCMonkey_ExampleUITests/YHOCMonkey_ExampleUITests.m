@@ -38,9 +38,9 @@
     XCUIElementQuery *query = [application descendantsMatchingType:XCUIElementTypeAny];
     [query elementBoundByIndex:0].frame;
     YHOCMonkey *monkey = [[YHOCMonkey alloc] initWithFrame:application.frame];
-    [monkey addDefaultXCTestPrivateActions];
-    //    [monkey addXCTestTapAlertAction:100
-    //                        application:application];
+//    [monkey addDefaultXCTestPrivateActions];
+    [monkey addDefaultXCTestPublicActions:application];
+    [monkey addXCTestTapAlertAction:100 application:application];
     [monkey monkeyAroundInfinity];
 }
 

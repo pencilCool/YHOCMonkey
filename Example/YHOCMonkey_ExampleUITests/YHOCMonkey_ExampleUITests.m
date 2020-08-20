@@ -35,8 +35,8 @@
 
 - (void)testMonkey {
     XCUIApplication *application = [[XCUIApplication alloc] init];
-    XCUIElementQuery *query = [application descendantsMatchingType:XCUIElementTypeAny];
-    [query elementBoundByIndex:0].frame;
+//    XCUIElementQuery *query = [application descendantsMatchingType:XCUIElementTypeAny];
+//    [query elementBoundByIndex:0].frame;
     YHOCMonkey *monkey = [[YHOCMonkey alloc] initWithFrame:application.frame];
 //    [monkey addDefaultXCTestPrivateActions];
     [monkey addDefaultXCTestPublicActions:application];
